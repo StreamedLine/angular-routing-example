@@ -1,0 +1,5 @@
+<div class="col sidebar">
+	<div *ngFor="let todo of todos">
+		<a routerLink="/todos/{{todo.id}}">{{todo.id}}: {{todo.text}}</a>
+	</div>
+</div>

@@ -1,0 +1,21 @@
+.sidebar {
+	display: inline-block;
+	width: 20%;
+	border: 1px solid;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.sidebar p {
+	display: block;
+	cursor: pointer;
+}
+
+.sidebar p:hover {
+	background: lightgrey
+}
+
+.sidebar p:active {
+	color: lightgrey;
+	background: darkgrey
+}
